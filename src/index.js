@@ -1,12 +1,12 @@
-import {
+const {
   getSavedData
-} from './utilities/helper.js'
+} = require('./utilities/helper.js')
 
-import {
+const {
   render,
   html,
   svg
-} from 'lighterhtml'
+} = require('lighterhtml')
 
 class Code {
   constructor (customOptions) {
@@ -52,6 +52,6 @@ class Code {
   }
 }
 
-export {
+module.exports = {
   Code
 }
