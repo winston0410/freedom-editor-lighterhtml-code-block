@@ -1,6 +1,6 @@
 const getSavedData = (savedData) => {
   if (savedData) {
-    return savedData.data.text
+    return savedData.data.code
   }
   return ''
 }
